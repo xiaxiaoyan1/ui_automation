@@ -1,0 +1,7 @@
+INFO     my_log:common_fun.py:278 等待元素可点击交易成功
+INFO     my_log:common_fun.py:278 等待元素可点击查询成功
+INFO     my_log:common_fun.py:278 等待元素可点击锁定解锁查询成功
+INFO     my_log:common_fun.py:214 等待元素可见锁定解锁查询成功
+INFO     my_log:search_page.py:132 锁定解锁查询成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功

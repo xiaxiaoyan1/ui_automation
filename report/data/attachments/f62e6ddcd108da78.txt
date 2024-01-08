@@ -1,0 +1,82 @@
+INFO     my_log:common_fun.py:278 等待元素可点击交易成功
+INFO     my_log:common_fun.py:278 等待元素可点击下单成功
+INFO     my_log:common_fun.py:162 获取元素获取第六个合约名称成功
+INFO     my_log:common_fun.py:278 等待元素可点击选择第六个合约成功
+INFO     my_log:common_fun.py:278 等待元素可点击价格输入框成功
+INFO     my_log:common_fun.py:278 等待元素可点击涨停价成功
+INFO     my_log:common_fun.py:278 等待元素可点击收起键盘成功
+INFO     my_log:common_fun.py:214 等待元素可见数量输入框成功
+INFO     my_log:common_fun.py:278 等待元素可点击卖开成功
+INFO     my_log:common_fun.py:473 当前没有提醒弹窗，正常执行之后的操作
+INFO     my_log:common_fun.py:278 等待元素可点击confirm确认按钮成功
+INFO     my_log:common_fun.py:162 获取元素toast_title成功
+INFO     my_log:common_fun.py:278 等待元素可点击toast确认按钮成功
+ERROR    my_log:common_fun.py:454 现在已闭市,系统禁止委托
+INFO     my_log:common_fun.py:260 对【现在已闭市,系统禁止委托】---操作成功进行截图成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功
+INFO     my_log:common_fun.py:278 等待元素可点击进入撤单页成功
+ERROR    my_log:common_fun.py:209 等待元素可见可撤的单失败
+ERROR    my_log:common_fun.py:210 Message: 
+Traceback (most recent call last):
+  File "D:\xiaxy\automation_test2022.4.22\common\common_fun.py", line 207, in get_visible_element
+    ele=WebDriverWait(self.driver,timeout,0.5).until(EC.visibility_of_element_located(loc))
+  File "D:\xiaxy\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     my_log:common_fun.py:260 对【可撤的单】---操作成功进行截图成功
+ERROR    my_log:cancel_order_page.py:30 没有可撤单
+INFO     my_log:common_fun.py:260 对【没有可撤单】---操作成功进行截图成功
+ERROR    my_log:common_fun.py:273 等待元素可点击toast确认按钮失败
+ERROR    my_log:common_fun.py:274 Message: 
+Traceback (most recent call last):
+  File "D:\xiaxy\automation_test2022.4.22\businessPage\cancel_order_page.py", line 28, in c_all_cancel
+    self.get_visible_element(self.item,"可撤的单")
+  File "D:\xiaxy\automation_test2022.4.22\common\common_fun.py", line 212, in get_visible_element
+    raise e
+  File "D:\xiaxy\automation_test2022.4.22\common\common_fun.py", line 207, in get_visible_element
+    ele=WebDriverWait(self.driver,timeout,0.5).until(EC.visibility_of_element_located(loc))
+  File "D:\xiaxy\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\xiaxy\automation_test2022.4.22\common\common_fun.py", line 270, in get_clickable_element
+    ele = WebDriverWait(self.driver,timeout,0.5).until(EC.element_to_be_clickable(loc))
+  File "D:\xiaxy\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     my_log:common_fun.py:260 对【toast确认按钮】---操作成功进行截图成功
+ERROR    my_log:common_fun.py:386 没有toastok按钮
+ERROR    my_log:common_fun.py:387 Message: 
+Traceback (most recent call last):
+  File "D:\xiaxy\automation_test2022.4.22\businessPage\cancel_order_page.py", line 28, in c_all_cancel
+    self.get_visible_element(self.item,"可撤的单")
+  File "D:\xiaxy\automation_test2022.4.22\common\common_fun.py", line 212, in get_visible_element
+    raise e
+  File "D:\xiaxy\automation_test2022.4.22\common\common_fun.py", line 207, in get_visible_element
+    ele=WebDriverWait(self.driver,timeout,0.5).until(EC.visibility_of_element_located(loc))
+  File "D:\xiaxy\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\xiaxy\automation_test2022.4.22\common\common_fun.py", line 384, in toastok
+    self.get_clickable_element(self.toast_ok, "toast确认按钮")
+  File "D:\xiaxy\automation_test2022.4.22\common\common_fun.py", line 276, in get_clickable_element
+    raise e
+  File "D:\xiaxy\automation_test2022.4.22\common\common_fun.py", line 270, in get_clickable_element
+    ele = WebDriverWait(self.driver,timeout,0.5).until(EC.element_to_be_clickable(loc))
+  File "D:\xiaxy\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     my_log:common_fun.py:260 对【没有toastok按钮】---操作成功进行截图成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功

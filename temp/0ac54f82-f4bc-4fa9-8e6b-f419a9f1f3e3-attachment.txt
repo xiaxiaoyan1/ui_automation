@@ -1,0 +1,1 @@
+INFO     my_log:desired_caps.py:25 开始启动app

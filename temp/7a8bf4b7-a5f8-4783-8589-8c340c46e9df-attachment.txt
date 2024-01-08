@@ -1,0 +1,20 @@
+ERROR    my_log:common_fun.py:273 等待元素可点击首页失败
+ERROR    my_log:common_fun.py:274 Message: 
+Traceback (most recent call last):
+  File "D:\xiaxy\automation_test2022.4.22\common\common_fun.py", line 270, in get_clickable_element
+    ele = WebDriverWait(self.driver,timeout,0.5).until(EC.element_to_be_clickable(loc))
+  File "D:\xiaxy\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     my_log:common_fun.py:260 对【首页】---操作成功进行截图成功
+ERROR    my_log:common_fun.py:273 等待元素可点击返回失败
+ERROR    my_log:common_fun.py:274 Message: 
+Traceback (most recent call last):
+  File "D:\xiaxy\automation_test2022.4.22\common\common_fun.py", line 270, in get_clickable_element
+    ele = WebDriverWait(self.driver,timeout,0.5).until(EC.element_to_be_clickable(loc))
+  File "D:\xiaxy\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     my_log:common_fun.py:260 对【返回】---操作成功进行截图成功

@@ -1,0 +1,114 @@
+{
+  "total" : 17,
+  "items" : [ {
+    "uid" : "689405124ca5df5a407ec03cd201fbf0",
+    "name" : "testCancelOrder",
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "b271b8056617a8e78e0c2dc0ecac2c76",
+    "name" : "testExercise",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "daeb75583030f2a2e7244c28c9fc93ec",
+    "name" : "testCombinationReport",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "255ed24d7d44f6e3434569e25107e291",
+    "name" : "testLock",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "d781307b0fa6882a820e4886ceee50f7",
+    "name" : "testChangePassword",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "62256feb4612d4dcf606b3ab7edac0c6",
+    "name" : "testMergerExercise",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "d28c1370ec1207377862f6dd707295d3",
+    "name" : "testGp",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 42,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 42
+    }
+  }, {
+    "uid" : "7979064ea0025b816dbacdde74fc93ec",
+    "name" : "testEntrustSetup",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 14,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 17
+    }
+  }, {
+    "uid" : "75428f251dc389c7f8d709eed2bdfbb7",
+    "name" : "textContract",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 11,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 11
+    }
+  }, {
+    "uid" : "6c79132ecc71c0e961a598b1e5f01e88",
+    "name" : "testPosition",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 10,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 10
+    }
+  } ]
+}

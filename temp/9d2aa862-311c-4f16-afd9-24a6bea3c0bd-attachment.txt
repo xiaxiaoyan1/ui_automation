@@ -1,0 +1,9 @@
+INFO     my_log:common_fun.py:278 等待元素可点击首页成功
+INFO     my_log:common_fun.py:278 等待元素可点击合约筛选成功
+INFO     my_log:common_fun.py:175 获取元素合约筛选成功
+INFO     my_log:common_fun.py:278 等待元素可点击涨跌成功
+INFO     my_log:common_fun.py:162 获取元素0行2列的数据成功
+INFO     my_log:common_fun.py:162 获取元素1行2列的数据成功
+INFO     my_log:common_fun.py:162 获取元素2行2列的数据成功
+INFO     my_log:common_fun.py:162 获取元素3行2列的数据成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功

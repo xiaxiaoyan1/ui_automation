@@ -1,0 +1,19 @@
+platformName: Android
+#模拟器
+#platformVersion: 7.1.2
+#三星真机
+#platformVersion: 6.0.1
+#platformVersion: 8.0.0
+platformVersion: 9.0.0
+deviceName: 127.0.0.1:62001
+#udid:
+app: \APP\opzt_moni_fz_V5.9.0.11 B017-176(20220120)_(49)_163605.apk
+# True:不重置 False:重置
+noReset: False
+unicodeKeyboard: True
+resetKeyboard: True
+appPackage: com.ztsinhouse.optionsimulate
+appPackage1: com.ztsinhouse.optionsimulate
+appACtivity: com.qlot.main._new.activity.QLMainActivity
+ip: localhost
+port: 4723

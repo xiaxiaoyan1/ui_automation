@@ -1,0 +1,220 @@
+{
+  "uid" : "eaef87041dd45357",
+  "name" : "test_Search_hiscapflow",
+  "fullName" : "testSearch.test_Qsearch.TestSearch#test_Search_hiscapflow",
+  "historyId" : "2c85059351bdbf6990df809df9018042",
+  "time" : {
+    "start" : 1652795782450,
+    "stop" : 1652795793604,
+    "duration" : 11154
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <testcases.testSearch.test_Qsearch.TestSearch object at 0x00E36390>\nsetup_fixture = (<businessPage.trade_first_page.TradeFirst object at 0x00DB1C90>, <businessPage.search_page.Search object at 0x00DFBAD0>)\n\n    @pytest.mark.usefixtures('search_fixture')\n    def test_Search_hiscapflow(self,setup_fixture):\n        toSearch,daySearch = setup_fixture\n>       daytrad=daySearch.search_hiscapitalflow()\n\ntestSearch\\test_Qsearch.py:62: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\businessPage\\search_page.py:109: in search_hiscapitalflow\n    self.get_clickable_element(self.hiscapflow,\"历史资金流水\")\n..\\common\\common_fun.py:276: in get_clickable_element\n    raise e\n..\\common\\common_fun.py:270: in get_clickable_element\n    ele = WebDriverWait(self.driver,timeout,0.5).until(EC.element_to_be_clickable(loc))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"0e7b83d5-90bd-4243-ba0f-6351e0c81c1e\")>\nmethod = <selenium.webdriver.support.expected_conditions.element_to_be_clickable object at 0x00DB1FB0>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n..\\..\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "search_fixture",
+    "time" : {
+      "start" : 1652795780754,
+      "stop" : 1652795780754,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "driver_fixture",
+    "time" : {
+      "start" : 1652794360868,
+      "stop" : 1652794396581,
+      "duration" : 35713
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "login_fixture",
+    "time" : {
+      "start" : 1652794396581,
+      "stop" : 1652794501486,
+      "duration" : 104905
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setup_fixture",
+    "time" : {
+      "start" : 1652795780754,
+      "stop" : 1652795782450,
+      "duration" : 1696
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <testcases.testSearch.test_Qsearch.TestSearch object at 0x00E36390>\nsetup_fixture = (<businessPage.trade_first_page.TradeFirst object at 0x00DB1C90>, <businessPage.search_page.Search object at 0x00DFBAD0>)\n\n    @pytest.mark.usefixtures('search_fixture')\n    def test_Search_hiscapflow(self,setup_fixture):\n        toSearch,daySearch = setup_fixture\n>       daytrad=daySearch.search_hiscapitalflow()\n\ntestSearch\\test_Qsearch.py:62: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\businessPage\\search_page.py:109: in search_hiscapitalflow\n    self.get_clickable_element(self.hiscapflow,\"历史资金流水\")\n..\\common\\common_fun.py:276: in get_clickable_element\n    raise e\n..\\common\\common_fun.py:270: in get_clickable_element\n    ele = WebDriverWait(self.driver,timeout,0.5).until(EC.element_to_be_clickable(loc))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"0e7b83d5-90bd-4243-ba0f-6351e0c81c1e\")>\nmethod = <selenium.webdriver.support.expected_conditions.element_to_be_clickable object at 0x00DB1FB0>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n..\\..\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "aa7fa9b769bb9f68",
+      "name" : "log",
+      "source" : "aa7fa9b769bb9f68.txt",
+      "type" : "text/plain",
+      "size" : 1481
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "search_fixture::0",
+    "time" : {
+      "start" : 1652795793627,
+      "stop" : 1652795806816,
+      "duration" : 13189
+    },
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+    "statusTrace" : "  File \"D:\\xiaxy\\python\\lib\\site-packages\\allure_commons\\_allure.py\", line 200, in __call__\n    return self._fixture_function(*args, **kwargs)\n  File \"D:\\xiaxy\\python\\lib\\site-packages\\_pytest\\fixtures.py\", line 941, in _teardown_yield_fixture\n    next(it)\n  File \"D:\\xiaxy\\automation_test2022.4.22\\testcases\\testSearch\\conftest.py\", line 17, in search_fixture\n    com.back()\n  File \"D:\\xiaxy\\automation_test2022.4.22\\common\\common_fun.py\", line 367, in back\n    self.get_clickable_element(self.Back,\"返回\")\n  File \"D:\\xiaxy\\automation_test2022.4.22\\common\\common_fun.py\", line 276, in get_clickable_element\n    raise e\n  File \"D:\\xiaxy\\automation_test2022.4.22\\common\\common_fun.py\", line 270, in get_clickable_element\n    ele = WebDriverWait(self.driver,timeout,0.5).until(EC.element_to_be_clickable(loc))\n  File \"D:\\xiaxy\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "driver_fixture::0",
+    "time" : {
+      "start" : 1652796124797,
+      "stop" : 1652796124797,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('search_fixture')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testSearch"
+  }, {
+    "name" : "suite",
+    "value" : "test_Qsearch"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearch"
+  }, {
+    "name" : "host",
+    "value" : "Win102021AVUCSJ"
+  }, {
+    "name" : "thread",
+    "value" : "10404-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testSearch.test_Qsearch"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a76adc6b863b2225",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details",
+      "time" : {
+        "start" : 1652713071348,
+        "stop" : 1652713071348,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "db795fc6a754cfd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details",
+      "time" : {
+        "start" : 1652712727856,
+        "stop" : 1652712727856,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ad5c784344626958",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652710824979,
+        "stop" : 1652710824979,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8242bdbc7348cb2b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652710344441,
+        "stop" : 1652710344441,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bdf097231316c40f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20093ms.",
+      "time" : {
+        "start" : 1652710089920,
+        "stop" : 1652710089920,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('search_fixture')" ]
+  },
+  "source" : "eaef87041dd45357.json",
+  "parameterValues" : [ ]
+}

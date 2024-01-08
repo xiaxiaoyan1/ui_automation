@@ -1,0 +1,227 @@
+{
+  "uid" : "4e97f9329fb82e3e",
+  "name" : "test_cancel_sell",
+  "fullName" : "testCancelOrder.test_Qcancelorder.TestCancelOrder#test_cancel_sell",
+  "historyId" : "534782d7bd374946bb48baf751e962b8",
+  "time" : {
+    "start" : 1652794659737,
+    "stop" : 1652794693976,
+    "duration" : 34239
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False == True\n  +False\n  -True",
+  "statusTrace" : "self = <testcases.testCancelOrder.test_Qcancelorder.TestCancelOrder object at 0x005F65F0>\nsetup_fixture = (<businessPage.cancel_order_page.CancelOrder object at 0x005F6FD0>, <businessPage.trade_first_page.TradeFirst object a...<businessPage.choice_oder_page.ChoiceOrder object at 0x005F6F70>, <businessPage.order_page.Order object at 0x005F6C30>)\n\n    @pytest.mark.usefixtures('back_fixture')\n    def test_cancel_sell(self,setup_fixture):\n        cancleorder,tradehome,choiceorder,order= setup_fixture\n        # 构造1个卖出撤单数据\n        tradehome.to_trade_page()\n        tradehome.to_order()\n        choiceorder.c_orderpage()\n        order.c_price_ztj()\n        order.c_hand(1)\n        order.c_ordersell()\n        order.order_page_back()\n        # 进入撤单页\n        tradehome.to_cancelOrder()\n        # 撤单后买入/卖出/平仓\n        res = cancleorder.c_cancel_sell()\n>       assert res == True\nE       assert False == True\nE         +False\nE         -True\n\ntestCancelOrder\\test_Qcancelorder.py:102: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver_fixture",
+    "time" : {
+      "start" : 1652794360868,
+      "stop" : 1652794396581,
+      "duration" : 35713
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "login_fixture",
+    "time" : {
+      "start" : 1652794396581,
+      "stop" : 1652794501486,
+      "duration" : 104905
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "back_fixture",
+    "time" : {
+      "start" : 1652794659737,
+      "stop" : 1652794659737,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setup_fixture",
+    "time" : {
+      "start" : 1652794659737,
+      "stop" : 1652794659737,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False == True\n  +False\n  -True",
+    "statusTrace" : "self = <testcases.testCancelOrder.test_Qcancelorder.TestCancelOrder object at 0x005F65F0>\nsetup_fixture = (<businessPage.cancel_order_page.CancelOrder object at 0x005F6FD0>, <businessPage.trade_first_page.TradeFirst object a...<businessPage.choice_oder_page.ChoiceOrder object at 0x005F6F70>, <businessPage.order_page.Order object at 0x005F6C30>)\n\n    @pytest.mark.usefixtures('back_fixture')\n    def test_cancel_sell(self,setup_fixture):\n        cancleorder,tradehome,choiceorder,order= setup_fixture\n        # 构造1个卖出撤单数据\n        tradehome.to_trade_page()\n        tradehome.to_order()\n        choiceorder.c_orderpage()\n        order.c_price_ztj()\n        order.c_hand(1)\n        order.c_ordersell()\n        order.order_page_back()\n        # 进入撤单页\n        tradehome.to_cancelOrder()\n        # 撤单后买入/卖出/平仓\n        res = cancleorder.c_cancel_sell()\n>       assert res == True\nE       assert False == True\nE         +False\nE         -True\n\ntestCancelOrder\\test_Qcancelorder.py:102: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fa4adb6a5a32f01",
+      "name" : "log",
+      "source" : "fa4adb6a5a32f01.txt",
+      "type" : "text/plain",
+      "size" : 2155
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "driver_fixture::0",
+    "time" : {
+      "start" : 1652796124797,
+      "stop" : 1652796124797,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "back_fixture::0",
+    "time" : {
+      "start" : 1652794693982,
+      "stop" : 1652794694266,
+      "duration" : 284
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('back_fixture')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCancelOrder"
+  }, {
+    "name" : "suite",
+    "value" : "test_Qcancelorder"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCancelOrder"
+  }, {
+    "name" : "host",
+    "value" : "Win102021AVUCSJ"
+  }, {
+    "name" : "thread",
+    "value" : "10404-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCancelOrder.test_Qcancelorder"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "92750ecbedbcf805",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0400E0D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1652793912675,
+        "stop" : 1652793912675,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a94e6a9e5a535077",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652712865635,
+        "stop" : 1652712876899,
+        "duration" : 11264
+      }
+    }, {
+      "uid" : "1372dc93004383e4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652712661115,
+        "stop" : 1652712673144,
+        "duration" : 12029
+      }
+    }, {
+      "uid" : "f36f0c51297d170a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652710821501,
+        "stop" : 1652710821501,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "73c2d3d3984ee982",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652710341459,
+        "stop" : 1652710341459,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2e5e053f06189cea",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20093ms.",
+      "time" : {
+        "start" : 1652710085181,
+        "stop" : 1652710085181,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('back_fixture')" ]
+  },
+  "source" : "4e97f9329fb82e3e.json",
+  "parameterValues" : [ ]
+}

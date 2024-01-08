@@ -1,0 +1,28 @@
+INFO     my_log:common_fun.py:278 等待元素可点击交易成功
+INFO     my_log:common_fun.py:278 等待元素可点击下单成功
+INFO     my_log:common_fun.py:162 获取元素获取第六个合约名称成功
+INFO     my_log:common_fun.py:278 等待元素可点击选择第六个合约成功
+INFO     my_log:common_fun.py:278 等待元素可点击更多成功
+INFO     my_log:common_fun.py:278 等待元素可点击委托风格成功
+INFO     my_log:common_fun.py:290 获取包含文本：传统的元素成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功
+INFO     my_log:common_fun.py:214 等待元素可见传统买入成功
+INFO     my_log:common_fun.py:278 等待元素可点击持仓成功
+ERROR    my_log:common_fun.py:273 等待元素可点击持仓item失败
+ERROR    my_log:common_fun.py:274 Message: 
+Traceback (most recent call last):
+  File "D:\xiaxy\automation_test2022.4.22\common\common_fun.py", line 270, in get_clickable_element
+    ele = WebDriverWait(self.driver,timeout,0.5).until(EC.element_to_be_clickable(loc))
+  File "D:\xiaxy\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     my_log:common_fun.py:260 对【持仓item】---操作成功进行截图成功
+ERROR    my_log:order_page.py:318 没有期权持仓
+INFO     my_log:common_fun.py:260 对【没有期权持仓】---操作成功进行截图成功
+INFO     my_log:common_fun.py:278 等待元素可点击更多成功
+INFO     my_log:common_fun.py:278 等待元素可点击委托风格成功
+INFO     my_log:common_fun.py:290 获取包含文本：三键的元素成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功
+INFO     my_log:common_fun.py:214 等待元素可见三键买开成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功

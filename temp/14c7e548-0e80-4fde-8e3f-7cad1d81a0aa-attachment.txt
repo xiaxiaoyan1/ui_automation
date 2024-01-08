@@ -1,0 +1,44 @@
+INFO     my_log:common_fun.py:278 等待元素可点击首页成功
+INFO     my_log:common_fun.py:278 等待元素可点击合约筛选成功
+INFO     my_log:common_fun.py:175 获取元素合约筛选成功
+INFO     my_log:common_fun.py:278 等待元素可点击搜索成功
+INFO     my_log:common_fun.py:102 清空输入框输入代码成功
+INFO     my_log:common_fun.py:114 往输入框输入输入代码成功
+INFO     my_log:common_fun.py:278 等待元素可点击加自选按钮成功
+INFO     my_log:common_fun.py:162 获取元素自选名称成功
+INFO     my_log:common_fun.py:278 等待元素可点击加自选按钮成功
+INFO     my_log:common_fun.py:162 获取元素自选名称成功
+INFO     my_log:common_fun.py:278 等待元素可点击加自选按钮成功
+INFO     my_log:common_fun.py:162 获取元素自选名称成功
+INFO     my_log:common_fun.py:278 等待元素可点击加自选按钮成功
+INFO     my_log:common_fun.py:162 获取元素自选名称成功
+INFO     my_log:common_fun.py:278 等待元素可点击加自选按钮成功
+INFO     my_log:common_fun.py:162 获取元素自选名称成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功
+INFO     my_log:common_fun.py:278 等待元素可点击自选商品成功
+INFO     my_log:common_fun.py:175 获取元素自选成功
+INFO     my_log:common_fun.py:227 等待元素可见自选股item成功
+INFO     my_log:common_fun.py:278 等待元素可点击编辑成功
+INFO     my_log:common_fun.py:278 等待元素可点击删除成功
+INFO     my_log:common_fun.py:278 等待元素可点击toast确认按钮成功
+INFO     my_log:common_fun.py:278 等待元素可点击删除成功
+INFO     my_log:common_fun.py:278 等待元素可点击toast确认按钮成功
+INFO     my_log:common_fun.py:278 等待元素可点击删除成功
+INFO     my_log:common_fun.py:278 等待元素可点击toast确认按钮成功
+INFO     my_log:common_fun.py:278 等待元素可点击删除成功
+INFO     my_log:common_fun.py:278 等待元素可点击toast确认按钮成功
+INFO     my_log:common_fun.py:278 等待元素可点击删除成功
+INFO     my_log:common_fun.py:278 等待元素可点击toast确认按钮成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功
+ERROR    my_log:common_fun.py:273 等待元素可点击返回失败
+ERROR    my_log:common_fun.py:274 Message: 
+Traceback (most recent call last):
+  File "D:\xiaxy\automation_test2022.4.22\common\common_fun.py", line 270, in get_clickable_element
+    ele = WebDriverWait(self.driver,timeout,0.5).until(EC.element_to_be_clickable(loc))
+  File "D:\xiaxy\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     my_log:common_fun.py:260 对【返回】---操作成功进行截图成功

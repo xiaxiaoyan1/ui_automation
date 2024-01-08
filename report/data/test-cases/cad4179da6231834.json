@@ -1,0 +1,106 @@
+{
+  "uid" : "cad4179da6231834",
+  "name" : "test_setrl_sj_defaultDivideNum",
+  "fullName" : "testEntrustSetup.test_Qentrust_setup.TestEntrustSetup#test_setrl_sj_defaultDivideNum",
+  "historyId" : "771aa8e0477fb0304aec861d0bd4292f",
+  "time" : {
+    "start" : 1652710342380,
+    "stop" : 1652710342380,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "driver_fixture = <appium.webdriver.webdriver.WebDriver (session=\"1e0510cf-d9e4-4dd7-a636-617f371446c0\")>\n\n    @pytest.fixture(scope='session',autouse=False)\n    def login_fixture(driver_fixture):\n        csv_file=BASE_DIR + '\\datas\\login.csv'\n        print(\"csv_file:%s\"%csv_file)\n        driver=driver_fixture\n        com=Common(driver)\n        data=com.get_csv_data(csv_file,1)\n        time.sleep(2)\n        trd=First(driver)\n        trd.to_login()\n        logn=Login(driver)\n>       logn.login(data[0],data[1])\n\nconftest.py:41: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\businessPage\\login_page.py:110: in login\n    self.get_visible_element(self.tv_account,\"首页账号\",30)\n..\\common\\common_fun.py:212: in get_visible_element\n    raise e\n..\\common\\common_fun.py:207: in get_visible_element\n    ele=WebDriverWait(self.driver,timeout,0.5).until(EC.visibility_of_element_located(loc))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"1e0510cf-d9e4-4dd7-a636-617f371446c0\")>\nmethod = <selenium.webdriver.support.expected_conditions.visibility_of_element_located object at 0x04A4E6B0>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n..\\..\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_fixture",
+    "time" : {
+      "start" : 1652710203004,
+      "stop" : 1652710341287,
+      "duration" : 138283
+    },
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+    "statusTrace" : "  File \"D:\\xiaxy\\python\\lib\\site-packages\\pluggy\\callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"D:\\xiaxy\\python\\lib\\site-packages\\_pytest\\fixtures.py\", line 1126, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"D:\\xiaxy\\python\\lib\\site-packages\\_pytest\\fixtures.py\", line 932, in call_fixture_func\n    fixture_result = fixturefunc(**kwargs)\n  File \"D:\\xiaxy\\automation_test2022.4.22\\testcases\\conftest.py\", line 41, in login_fixture\n    logn.login(data[0],data[1])\n  File \"D:\\xiaxy\\automation_test2022.4.22\\businessPage\\login_page.py\", line 110, in login\n    self.get_visible_element(self.tv_account,\"首页账号\",30)\n  File \"D:\\xiaxy\\automation_test2022.4.22\\common\\common_fun.py\", line 212, in get_visible_element\n    raise e\n  File \"D:\\xiaxy\\automation_test2022.4.22\\common\\common_fun.py\", line 207, in get_visible_element\n    ele=WebDriverWait(self.driver,timeout,0.5).until(EC.visibility_of_element_located(loc))\n  File \"D:\\xiaxy\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "driver_fixture",
+    "time" : {
+      "start" : 1652710166614,
+      "stop" : 1652710203004,
+      "duration" : 36390
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "driver_fixture::0",
+    "time" : {
+      "start" : 1652710345013,
+      "stop" : 1652710345013,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('back_fixture')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testEntrustSetup"
+  }, {
+    "name" : "suite",
+    "value" : "test_Qentrust_setup"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestEntrustSetup"
+  }, {
+    "name" : "host",
+    "value" : "Win102021AVUCSJ"
+  }, {
+    "name" : "thread",
+    "value" : "9676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testEntrustSetup.test_Qentrust_setup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('back_fixture')" ]
+  },
+  "source" : "cad4179da6231834.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,200 @@
+{
+  "uid" : "116f716ee236d61d",
+  "name" : "test_agree_exercise",
+  "fullName" : "testExercise.test_Xexercise.TestClok#test_agree_exercise",
+  "historyId" : "732a9c1777c86c0174b45c88484f92c2",
+  "time" : {
+    "start" : 1652795232942,
+    "stop" : 1652795246052,
+    "duration" : 13110
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False == True\n  +False\n  -True",
+  "statusTrace" : "self = <testcases.testExercise.test_Xexercise.TestClok object at 0x00D95EF0>\nsetup_fixture = <businessPage.exercise_page.Exercise object at 0x00D7A4F0>\n\n    @pytest.mark.usefixtures('back_fixture')\n    def test_agree_exercise(self,setup_fixture):\n        exe = setup_fixture\n        res = exe.agree_exercise(1)\n>       assert res == True\nE       assert False == True\nE         +False\nE         -True\n\ntestExercise\\test_Xexercise.py:35: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup_fixture",
+    "time" : {
+      "start" : 1652795230906,
+      "stop" : 1652795232942,
+      "duration" : 2036
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "driver_fixture",
+    "time" : {
+      "start" : 1652794360868,
+      "stop" : 1652794396581,
+      "duration" : 35713
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "login_fixture",
+    "time" : {
+      "start" : 1652794396581,
+      "stop" : 1652794501486,
+      "duration" : 104905
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "back_fixture",
+    "time" : {
+      "start" : 1652795230906,
+      "stop" : 1652795230906,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False == True\n  +False\n  -True",
+    "statusTrace" : "self = <testcases.testExercise.test_Xexercise.TestClok object at 0x00D95EF0>\nsetup_fixture = <businessPage.exercise_page.Exercise object at 0x00D7A4F0>\n\n    @pytest.mark.usefixtures('back_fixture')\n    def test_agree_exercise(self,setup_fixture):\n        exe = setup_fixture\n        res = exe.agree_exercise(1)\n>       assert res == True\nE       assert False == True\nE         +False\nE         -True\n\ntestExercise\\test_Xexercise.py:35: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a01c52ceabbac52f",
+      "name" : "log",
+      "source" : "a01c52ceabbac52f.txt",
+      "type" : "text/plain",
+      "size" : 1118
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "driver_fixture::0",
+    "time" : {
+      "start" : 1652796124797,
+      "stop" : 1652796124797,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "back_fixture::0",
+    "time" : {
+      "start" : 1652795246057,
+      "stop" : 1652795246148,
+      "duration" : 91
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('back_fixture')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testExercise"
+  }, {
+    "name" : "suite",
+    "value" : "test_Xexercise"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClok"
+  }, {
+    "name" : "host",
+    "value" : "Win102021AVUCSJ"
+  }, {
+    "name" : "thread",
+    "value" : "10404-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testExercise.test_Xexercise"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ce9ba2528a8bef62",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details",
+      "time" : {
+        "start" : 1652713052732,
+        "stop" : 1652713052732,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7a93dd57fde8bd47",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details",
+      "time" : {
+        "start" : 1652712709152,
+        "stop" : 1652712709152,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cdb9cd3984be3c4e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652710822784,
+        "stop" : 1652710822784,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('back_fixture')" ]
+  },
+  "source" : "116f716ee236d61d.json",
+  "parameterValues" : [ ]
+}

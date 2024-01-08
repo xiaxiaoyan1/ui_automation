@@ -1,0 +1,210 @@
+{
+  "uid" : "1142d7e028449832",
+  "name" : "test_to_notice",
+  "fullName" : "testFirstPage.test_Qfirst_page.TestClok#test_to_notice",
+  "historyId" : "0d8b1bf46593d7b0dd764e996e20712a",
+  "time" : {
+    "start" : 1652795312246,
+    "stop" : 1652795314225,
+    "duration" : 1979
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "back_fixture",
+    "time" : {
+      "start" : 1652795311165,
+      "stop" : 1652795311165,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "driver_fixture",
+    "time" : {
+      "start" : 1652794360868,
+      "stop" : 1652794396581,
+      "duration" : 35713
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "login_fixture",
+    "time" : {
+      "start" : 1652794396581,
+      "stop" : 1652794501486,
+      "duration" : 104905
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setup_fixture",
+    "time" : {
+      "start" : 1652795311165,
+      "stop" : 1652795312246,
+      "duration" : 1081
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c04e60a057ac3490",
+      "name" : "log",
+      "source" : "c04e60a057ac3490.txt",
+      "type" : "text/plain",
+      "size" : 268
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "back_fixture::0",
+    "time" : {
+      "start" : 1652795314226,
+      "stop" : 1652795314334,
+      "duration" : 108
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "driver_fixture::0",
+    "time" : {
+      "start" : 1652796124797,
+      "stop" : 1652796124797,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('back_fixture')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testFirstPage"
+  }, {
+    "name" : "suite",
+    "value" : "test_Qfirst_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClok"
+  }, {
+    "name" : "host",
+    "value" : "Win102021AVUCSJ"
+  }, {
+    "name" : "thread",
+    "value" : "10404-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testFirstPage.test_Qfirst_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "150acccc42a975b7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details",
+      "time" : {
+        "start" : 1652713054088,
+        "stop" : 1652713054088,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "441ca2a03f80d916",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details",
+      "time" : {
+        "start" : 1652712710502,
+        "stop" : 1652712710502,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a19d343d798bf471",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652710822928,
+        "stop" : 1652710822928,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f01dbc0f9842ab7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652710342667,
+        "stop" : 1652710342667,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c65d429619665c92",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20093ms.",
+      "time" : {
+        "start" : 1652710087100,
+        "stop" : 1652710087100,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('back_fixture')" ]
+  },
+  "source" : "1142d7e028449832.json",
+  "parameterValues" : [ ]
+}

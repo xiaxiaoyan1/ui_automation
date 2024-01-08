@@ -1,0 +1,204 @@
+{
+  "uid" : "53e8d8c5d212f05c",
+  "name" : "test_captical",
+  "fullName" : "testCaptical.test_Qto_captical.Test_trade#test_captical",
+  "historyId" : "b42c47d2df0b7632e1cd78fdcc2670d8",
+  "time" : {
+    "start" : 1652794793224,
+    "stop" : 1652794796979,
+    "duration" : 3755
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver_fixture",
+    "time" : {
+      "start" : 1652794360868,
+      "stop" : 1652794396581,
+      "duration" : 35713
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "login_fixture",
+    "time" : {
+      "start" : 1652794396581,
+      "stop" : 1652794501486,
+      "duration" : 104905
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "back_fixture",
+    "time" : {
+      "start" : 1652794793224,
+      "stop" : 1652794793224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cf16d50a42ff6a46",
+      "name" : "log",
+      "source" : "cf16d50a42ff6a46.txt",
+      "type" : "text/plain",
+      "size" : 362
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "driver_fixture::0",
+    "time" : {
+      "start" : 1652796124797,
+      "stop" : 1652796124797,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "back_fixture::0",
+    "time" : {
+      "start" : 1652794796979,
+      "stop" : 1652794797075,
+      "duration" : 96
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('back_fixture')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCaptical"
+  }, {
+    "name" : "suite",
+    "value" : "test_Qto_captical"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_trade"
+  }, {
+    "name" : "host",
+    "value" : "Win102021AVUCSJ"
+  }, {
+    "name" : "thread",
+    "value" : "10404-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCaptical.test_Qto_captical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fb26424291ad634d",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0400E0D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1652793913384,
+        "stop" : 1652793913384,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f1b3fe1abd07da8d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652712956336,
+        "stop" : 1652712967922,
+        "duration" : 11586
+      }
+    }, {
+      "uid" : "9ba0934418be359f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up",
+      "time" : {
+        "start" : 1652712698527,
+        "stop" : 1652712698539,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "652e314b8f41a6e5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652710821617,
+        "stop" : 1652710821617,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "df1dd595ef182c48",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652710341574,
+        "stop" : 1652710341574,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "26325032b9b2a246",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20093ms.",
+      "time" : {
+        "start" : 1652710085367,
+        "stop" : 1652710085367,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('back_fixture')" ]
+  },
+  "source" : "53e8d8c5d212f05c.json",
+  "parameterValues" : [ ]
+}

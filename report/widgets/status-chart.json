@@ -1,0 +1,1401 @@
+[ {
+  "uid" : "367d20206e5401fe",
+  "name" : "test_confirmpwd_null",
+  "time" : {
+    "start" : 1652794825487,
+    "stop" : 1652794832931,
+    "duration" : 7444
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "112475005abdd2ae",
+  "name" : "test_buy_all_hold",
+  "time" : {
+    "start" : 1652795333988,
+    "stop" : 1652795333988,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "639be8aa31cf18e8",
+  "name" : "test_setlogin_15",
+  "time" : {
+    "start" : 1652795171659,
+    "stop" : 1652795175062,
+    "duration" : 3403
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "748dee5959818c2d",
+  "name" : "test_to_trade",
+  "time" : {
+    "start" : 1652795309532,
+    "stop" : 1652795311090,
+    "duration" : 1558
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97ca6ed0fbf382eb",
+  "name" : "test_to_wave_index",
+  "time" : {
+    "start" : 1652795324261,
+    "stop" : 1652795327123,
+    "duration" : 2862
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a30cbffeb4fcf48",
+  "name" : "test_setlogin_30",
+  "time" : {
+    "start" : 1652795178748,
+    "stop" : 1652795182391,
+    "duration" : 3643
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "efb857ae4fe5d3fb",
+  "name" : "test_zjxq",
+  "time" : {
+    "start" : 1652795333940,
+    "stop" : 1652795333940,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5f4dc9eebd0f91c9",
+  "name" : "test_ass",
+  "time" : {
+    "start" : 1652795228660,
+    "stop" : 1652795230809,
+    "duration" : 2149
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49e2d4b8fa432f94",
+  "name" : "test_search_add",
+  "time" : {
+    "start" : 1652795001478,
+    "stop" : 1652795050338,
+    "duration" : 48860
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "eaef87041dd45357",
+  "name" : "test_Search_hiscapflow",
+  "time" : {
+    "start" : 1652795782450,
+    "stop" : 1652795793604,
+    "duration" : 11154
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a466c81db13ef522",
+  "name" : "test_sort_order",
+  "time" : {
+    "start" : 1652795733637,
+    "stop" : 1652795749035,
+    "duration" : 15398
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d6ec810ad27f1b3f",
+  "name" : "test_cancel_order_other",
+  "time" : {
+    "start" : 1652794757652,
+    "stop" : 1652794793091,
+    "duration" : 35439
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "123d60e0d388360a",
+  "name" : "test_now_price",
+  "time" : {
+    "start" : 1652795664193,
+    "stop" : 1652795679469,
+    "duration" : 15276
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6f2a5cc603f9350",
+  "name" : "test_pc",
+  "time" : {
+    "start" : 1652795633314,
+    "stop" : 1652795644491,
+    "duration" : 11177
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "30712e25392eeb42",
+  "name" : "test_save",
+  "time" : {
+    "start" : 1652794971071,
+    "stop" : 1652794984846,
+    "duration" : 13775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9cc8640dea1a8bc",
+  "name" : "test_fastBuy",
+  "time" : {
+    "start" : 1652796032435,
+    "stop" : 1652796032435,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "25c30557c73e1656",
+  "name" : "test_newpwd_null_zj",
+  "time" : {
+    "start" : 1652795334281,
+    "stop" : 1652795334281,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "dcdd3e1b962f2e55",
+  "name" : "test_FOK_traditionalbuy",
+  "time" : {
+    "start" : 1652795552110,
+    "stop" : 1652795556046,
+    "duration" : 3936
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "457bc4755097e5c0",
+  "name" : "test_setorder_switch_off",
+  "time" : {
+    "start" : 1652795104983,
+    "stop" : 1652795106828,
+    "duration" : 1845
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4be9ee02b03a356b",
+  "name" : "test_amount",
+  "time" : {
+    "start" : 1652795919350,
+    "stop" : 1652795919350,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f4e26a2fedb7efa6",
+  "name" : "test_relieveComb",
+  "time" : {
+    "start" : 1652794927053,
+    "stop" : 1652794940004,
+    "duration" : 12951
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee77ff0fb9424c3d",
+  "name" : "test_cancel",
+  "time" : {
+    "start" : 1652794539800,
+    "stop" : 1652794575946,
+    "duration" : 36146
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5390b01a88d4a13d",
+  "name" : "test_sell_all_hold",
+  "time" : {
+    "start" : 1652795334036,
+    "stop" : 1652795334036,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "433cba372624d9a9",
+  "name" : "test_confirmpwd_null",
+  "time" : {
+    "start" : 1652795334244,
+    "stop" : 1652795334244,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d87fe1491bf5b853",
+  "name" : "test_zx3",
+  "time" : {
+    "start" : 1652795334092,
+    "stop" : 1652795334092,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3fa1b25851cd0223",
+  "name" : "test_setprice_gdj",
+  "time" : {
+    "start" : 1652795075395,
+    "stop" : 1652795080651,
+    "duration" : 5256
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "18204a783c2f83a6",
+  "name" : "test_Search_dayexe",
+  "time" : {
+    "start" : 1652795767302,
+    "stop" : 1652795768863,
+    "duration" : 1561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b2cdc4d37469e5d",
+  "name" : "test_Search_daytrad",
+  "time" : {
+    "start" : 1652795751235,
+    "stop" : 1652795752773,
+    "duration" : 1538
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ac277098ac7789f",
+  "name" : "test_setsj_defaultDivide_switch",
+  "time" : {
+    "start" : 1652795142411,
+    "stop" : 1652795145299,
+    "duration" : 2888
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "44cf28fb4b24cce3",
+  "name" : "test_entrust_exercise",
+  "time" : {
+    "start" : 1652795286689,
+    "stop" : 1652795299486,
+    "duration" : 12797
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6bf8b4c5663277e8",
+  "name" : "test_buy_hold",
+  "time" : {
+    "start" : 1652795333969,
+    "stop" : 1652795333969,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "55fa5a1d80420359",
+  "name" : "test_addSelf",
+  "time" : {
+    "start" : 1652796101872,
+    "stop" : 1652796101872,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7bce3898fbf2ab60",
+  "name" : "test_newpwd_null",
+  "time" : {
+    "start" : 1652794817400,
+    "stop" : 1652794824445,
+    "duration" : 7045
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22265c4c70af99ab",
+  "name" : "test_oldpwd_error_zj",
+  "time" : {
+    "start" : 1652795334272,
+    "stop" : 1652795334272,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "87a32aa59cba3dea",
+  "name" : "test_merger_exercise",
+  "time" : {
+    "start" : 1652795386009,
+    "stop" : 1652795548160,
+    "duration" : 162151
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9dcabcc2462e24a",
+  "name" : "test_Search_hisexe",
+  "time" : {
+    "start" : 1652795771244,
+    "stop" : 1652795773694,
+    "duration" : 2450
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efdd6de7721440a9",
+  "name" : "test_to_strategy",
+  "time" : {
+    "start" : 1652795301046,
+    "stop" : 1652795307168,
+    "duration" : 6122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ac4af87b08191e0",
+  "name" : "test_cancel_flat",
+  "time" : {
+    "start" : 1652794694269,
+    "stop" : 1652794723508,
+    "duration" : 29239
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2512f550e96ea74c",
+  "name" : "test_hold_hq",
+  "time" : {
+    "start" : 1652795334130,
+    "stop" : 1652795334130,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "19a37bc30f7f1eba",
+  "name" : "test_to_statistics",
+  "time" : {
+    "start" : 1652795318928,
+    "stop" : 1652795323188,
+    "duration" : 4260
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3729f299ced2f2b2",
+  "name" : "test_hq",
+  "time" : {
+    "start" : 1652795606551,
+    "stop" : 1652795618210,
+    "duration" : 11659
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "94a3ce2036a4ff65",
+  "name" : "test_sx",
+  "time" : {
+    "start" : 1652794958412,
+    "stop" : 1652794968541,
+    "duration" : 10129
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a3bb3e35d333e8f7",
+  "name" : "test_confirmpwd_atypism_zj",
+  "time" : {
+    "start" : 1652795334299,
+    "stop" : 1652795334299,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "93aa01f8cdbfaf1e",
+  "name" : "test_Search_groupinform",
+  "time" : {
+    "start" : 1652795818730,
+    "stop" : 1652795820778,
+    "duration" : 2048
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47173962f267d70c",
+  "name" : "test_search_toK",
+  "time" : {
+    "start" : 1652794989403,
+    "stop" : 1652794993544,
+    "duration" : 4141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "476c65af483e8120",
+  "name" : "test_sell_chenge_price",
+  "time" : {
+    "start" : 1652795334046,
+    "stop" : 1652795334046,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d640446c335ecdbb",
+  "name" : "test_ETF",
+  "time" : {
+    "start" : 1652795850534,
+    "stop" : 1652795850534,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c6e5718746562981",
+  "name" : "test_zx4",
+  "time" : {
+    "start" : 1652795334101,
+    "stop" : 1652795334101,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e2495216ec9eb5cf",
+  "name" : "test_exe",
+  "time" : {
+    "start" : 1652795203164,
+    "stop" : 1652795226466,
+    "duration" : 23302
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bba4ee81ef04eddb",
+  "name" : "test_toOrder",
+  "time" : {
+    "start" : 1652796078957,
+    "stop" : 1652796078957,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b775b7e39a9edee9",
+  "name" : "test_setprice_dsj",
+  "time" : {
+    "start" : 1652795065512,
+    "stop" : 1652795071431,
+    "duration" : 5919
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ff56aa8850ddbc85",
+  "name" : "test_cancle",
+  "time" : {
+    "start" : 1652795334140,
+    "stop" : 1652795334140,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8c3999f11907a4b6",
+  "name" : "test_setrl_defaultTime",
+  "time" : {
+    "start" : 1652795120043,
+    "stop" : 1652795124095,
+    "duration" : 4052
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "64d42c4c152661bd",
+  "name" : "test_tetail",
+  "time" : {
+    "start" : 1652795593196,
+    "stop" : 1652795604389,
+    "duration" : 11193
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "824f811888bf5af3",
+  "name" : "test_to_optional",
+  "time" : {
+    "start" : 1652795315172,
+    "stop" : 1652795317865,
+    "duration" : 2693
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "840d6e14b0205f15",
+  "name" : "test_oldpwd_error",
+  "time" : {
+    "start" : 1652795334226,
+    "stop" : 1652795334226,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4a571e60dc7d7ffe",
+  "name" : "test_setrisk_switch",
+  "time" : {
+    "start" : 1652795115585,
+    "stop" : 1652795116835,
+    "duration" : 1250
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "aff6724835796475",
+  "name" : "test_confirmpwd_null_zj",
+  "time" : {
+    "start" : 1652795334290,
+    "stop" : 1652795334290,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5e5e784e1fa836cb",
+  "name" : "test_ke",
+  "time" : {
+    "start" : 1652795334188,
+    "stop" : 1652795334188,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e202fba9cd6c457b",
+  "name" : "test_screen_toK",
+  "time" : {
+    "start" : 1652794996906,
+    "stop" : 1652794998278,
+    "duration" : 1372
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef29768d0646f59f",
+  "name" : "test_setxj_defaultDivide_switch",
+  "time" : {
+    "start" : 1652795127620,
+    "stop" : 1652795130245,
+    "duration" : 2625
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1a0c7fa6b2d15fd7",
+  "name" : "test_Search_groupflow",
+  "time" : {
+    "start" : 1652795824443,
+    "stop" : 1652795825997,
+    "duration" : 1554
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a517f70ffb337c8f",
+  "name" : "test_confirmpwd_null_zj",
+  "time" : {
+    "start" : 1652794861555,
+    "stop" : 1652794869004,
+    "duration" : 7449
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77575f4b7a68dc27",
+  "name" : "test_zx2",
+  "time" : {
+    "start" : 1652795334082,
+    "stop" : 1652795334082,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "29a2218d58db87b7",
+  "name" : "test_Handicap",
+  "time" : {
+    "start" : 1652795986735,
+    "stop" : 1652795986735,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6f3635a58d450220",
+  "name" : "test_zt",
+  "time" : {
+    "start" : 1652795333922,
+    "stop" : 1652795333922,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3c5c30453cf3af0a",
+  "name" : "test_cancle",
+  "time" : {
+    "start" : 1652795333931,
+    "stop" : 1652795333931,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ebcecb60f6028c7b",
+  "name" : "test_xjbuy",
+  "time" : {
+    "start" : 1652795333903,
+    "stop" : 1652795333903,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c93238b870382375",
+  "name" : "test_hold_mr",
+  "time" : {
+    "start" : 1652795334111,
+    "stop" : 1652795334111,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3aced2749fc51881",
+  "name" : "test_fastSell",
+  "time" : {
+    "start" : 1652796055796,
+    "stop" : 1652796055796,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a3cf5c3d60363c7",
+  "name" : "test_oldpwd_error",
+  "time" : {
+    "start" : 1652794808406,
+    "stop" : 1652794816268,
+    "duration" : 7862
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa0a684a7011f0ae",
+  "name" : "test_Search_dayentrust",
+  "time" : {
+    "start" : 1652795756197,
+    "stop" : 1652795757754,
+    "duration" : 1557
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28dc09476cc9b068",
+  "name" : "test_traditional_coveredsell",
+  "time" : {
+    "start" : 1652795559984,
+    "stop" : 1652795564502,
+    "duration" : 4518
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "38758ffebc8a723c",
+  "name" : "test_newpwd_null",
+  "time" : {
+    "start" : 1652795334235,
+    "stop" : 1652795334235,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a87e7c96ddac98a3",
+  "name" : "test_hold",
+  "time" : {
+    "start" : 1652795333913,
+    "stop" : 1652795333913,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b64763b64080ac3c",
+  "name" : "test_setposition_notsave",
+  "time" : {
+    "start" : 1652795163753,
+    "stop" : 1652795167694,
+    "duration" : 3941
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbe388044e072b1",
+  "name" : "test_setposition_save",
+  "time" : {
+    "start" : 1652795156587,
+    "stop" : 1652795160531,
+    "duration" : 3944
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53e8d8c5d212f05c",
+  "name" : "test_captical",
+  "time" : {
+    "start" : 1652794793224,
+    "stop" : 1652794796979,
+    "duration" : 3755
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fb6cee4bb0d73bc",
+  "name" : "test_setorder_switch_on",
+  "time" : {
+    "start" : 1652795110534,
+    "stop" : 1652795112224,
+    "duration" : 1690
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1b386e29c3cf03e2",
+  "name" : "test_arrow",
+  "time" : {
+    "start" : 1652795873076,
+    "stop" : 1652795873076,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f9df13526ec635de",
+  "name" : "test_zx1",
+  "time" : {
+    "start" : 1652795334072,
+    "stop" : 1652795334072,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ec0c3b550b30f7de",
+  "name" : "test_setadd_defaultNumber",
+  "time" : {
+    "start" : 1652795094521,
+    "stop" : 1652795101828,
+    "duration" : 7307
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "eabc05be86302fcc",
+  "name" : "test_clok",
+  "time" : {
+    "start" : 1652795335249,
+    "stop" : 1652795347352,
+    "duration" : 12103
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f17a44e577f132a",
+  "name" : "test_history_cj",
+  "time" : {
+    "start" : 1652795334169,
+    "stop" : 1652795334169,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "abe38e922817a58d",
+  "name" : "test_Search_grouposition",
+  "time" : {
+    "start" : 1652795812700,
+    "stop" : 1652795814611,
+    "duration" : 1911
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf5856b1d67e53f0",
+  "name" : "test_three",
+  "time" : {
+    "start" : 1652795197578,
+    "stop" : 1652795201476,
+    "duration" : 3898
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33a52209bdca9d82",
+  "name" : "test_today_cj",
+  "time" : {
+    "start" : 1652795334149,
+    "stop" : 1652795334149,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "36b1f1b22e64d9f3",
+  "name" : "test_Search_dayexetru",
+  "time" : {
+    "start" : 1652795807578,
+    "stop" : 1652795809101,
+    "duration" : 1523
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35c36982cb3ab887",
+  "name" : "test_zjxq",
+  "time" : {
+    "start" : 1652795328230,
+    "stop" : 1652795328230,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ff524aa41f5dcdf6",
+  "name" : "test_oldpwd_null_zj",
+  "time" : {
+    "start" : 1652795334263,
+    "stop" : 1652795334263,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "857e6ca0c7c50352",
+  "name" : "test_unclok",
+  "time" : {
+    "start" : 1652795349018,
+    "stop" : 1652795385867,
+    "duration" : 36849
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "915a08b000f97b77",
+  "name" : "test_Search_histrad",
+  "time" : {
+    "start" : 1652795761736,
+    "stop" : 1652795763830,
+    "duration" : 2094
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64a375d6ff54f418",
+  "name" : "test_rise",
+  "time" : {
+    "start" : 1652794950979,
+    "stop" : 1652794955727,
+    "duration" : 4748
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "41a7882525d46e9c",
+  "name" : "test_qbsh",
+  "time" : {
+    "start" : 1652795333950,
+    "stop" : 1652795333950,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d93af97fc0f25678",
+  "name" : "test_sheng",
+  "time" : {
+    "start" : 1652795334197,
+    "stop" : 1652795334197,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9558011f72d8e429",
+  "name" : "test_Detailed",
+  "time" : {
+    "start" : 1652795964415,
+    "stop" : 1652795964415,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2c796c4d561632b8",
+  "name" : "test_Search_clok",
+  "time" : {
+    "start" : 1652795777712,
+    "stop" : 1652795779360,
+    "duration" : 1648
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e489a1d0fa010b2",
+  "name" : "test_sort_return",
+  "time" : {
+    "start" : 1652795716599,
+    "stop" : 1652795731614,
+    "duration" : 15015
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "57ba9866e28e273b",
+  "name" : "test_hold_mc",
+  "time" : {
+    "start" : 1652795334121,
+    "stop" : 1652795334121,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "63c00e5446aae673",
+  "name" : "test_buy_chenge_price",
+  "time" : {
+    "start" : 1652795333997,
+    "stop" : 1652795333997,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "744b034fbc243b7e",
+  "name" : "test_index",
+  "time" : {
+    "start" : 1652796009820,
+    "stop" : 1652796009820,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7d3c326603938ec4",
+  "name" : "test_setrl_sj_defaultDivideNum",
+  "time" : {
+    "start" : 1652795148510,
+    "stop" : 1652795153407,
+    "duration" : 4897
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "89f8845a762405f4",
+  "name" : "test_sell_zt",
+  "time" : {
+    "start" : 1652795334027,
+    "stop" : 1652795334027,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4fb8e342f550dc86",
+  "name" : "test_tradition",
+  "time" : {
+    "start" : 1652795191708,
+    "stop" : 1652795195853,
+    "duration" : 4145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afb2ba6335d4ad91",
+  "name" : "test_chuang",
+  "time" : {
+    "start" : 1652795334207,
+    "stop" : 1652795334207,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "27d90f10846abc0f",
+  "name" : "test_cycle",
+  "time" : {
+    "start" : 1652795895881,
+    "stop" : 1652795895881,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a6e93de61bed7dc3",
+  "name" : "test_buy_zt",
+  "time" : {
+    "start" : 1652795333978,
+    "stop" : 1652795333978,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "135544c68de6ac5a",
+  "name" : "test_init",
+  "time" : {
+    "start" : 1652795386007,
+    "stop" : 1652795386007,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb38453703872c1c",
+  "name" : "test_cancel_order",
+  "time" : {
+    "start" : 1652794723629,
+    "stop" : 1652794757529,
+    "duration" : 33900
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "feb42cf529efff1c",
+  "name" : "test_new_price",
+  "time" : {
+    "start" : 1652794943008,
+    "stop" : 1652794947614,
+    "duration" : 4606
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f437114dfbf46407",
+  "name" : "test_oldpwd_error_zj",
+  "time" : {
+    "start" : 1652794843296,
+    "stop" : 1652794851056,
+    "duration" : 7760
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc6039f5c8f28f78",
+  "name" : "test_hu",
+  "time" : {
+    "start" : 1652795334178,
+    "stop" : 1652795334178,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "73ed50f7736aef2b",
+  "name" : "test_sell",
+  "time" : {
+    "start" : 1652795334007,
+    "stop" : 1652795334007,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c8a5e3e3bddfaf28",
+  "name" : "test_cancel_buy",
+  "time" : {
+    "start" : 1652794624173,
+    "stop" : 1652794659594,
+    "duration" : 35421
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1142d7e028449832",
+  "name" : "test_to_notice",
+  "time" : {
+    "start" : 1652795312246,
+    "stop" : 1652795314225,
+    "duration" : 1979
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d96995df948f1c23",
+  "name" : "test_apply",
+  "time" : {
+    "start" : 1652794869922,
+    "stop" : 1652794925544,
+    "duration" : 55622
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f4854ef814cf8b4",
+  "name" : "test_setDefaultNumber",
+  "time" : {
+    "start" : 1652795083852,
+    "stop" : 1652795091400,
+    "duration" : 7548
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb09238744d33bcf",
+  "name" : "test_today_wt",
+  "time" : {
+    "start" : 1652795334159,
+    "stop" : 1652795334159,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b58f4d48efa9231d",
+  "name" : "test_sell_hold",
+  "time" : {
+    "start" : 1652795334017,
+    "stop" : 1652795334017,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cd6144e56cef6139",
+  "name" : "test_buy",
+  "time" : {
+    "start" : 1652795333960,
+    "stop" : 1652795333960,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5bddcee7fc87556b",
+  "name" : "test_oldpwd_null",
+  "time" : {
+    "start" : 1652795334216,
+    "stop" : 1652795334216,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1eac171a5f01bc69",
+  "name" : "test_newpwd_null_zj",
+  "time" : {
+    "start" : 1652794852578,
+    "stop" : 1652794860552,
+    "duration" : 7974
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a74b0c2b63df82a",
+  "name" : "test_setlogin_always",
+  "time" : {
+    "start" : 1652795185926,
+    "stop" : 1652795189412,
+    "duration" : 3486
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "116f716ee236d61d",
+  "name" : "test_agree_exercise",
+  "time" : {
+    "start" : 1652795232942,
+    "stop" : 1652795246052,
+    "duration" : 13110
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6b1fb26eda49816",
+  "name" : "test_confirmpwd_atypism",
+  "time" : {
+    "start" : 1652795334254,
+    "stop" : 1652795334254,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "db1721f502bec3bd",
+  "name" : "test_confirm_cancel",
+  "time" : {
+    "start" : 1652794501487,
+    "stop" : 1652794539612,
+    "duration" : 38125
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e97f9329fb82e3e",
+  "name" : "test_cancel_sell",
+  "time" : {
+    "start" : 1652794659737,
+    "stop" : 1652794693976,
+    "duration" : 34239
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "95a3b6089ee9c8e9",
+  "name" : "test_order",
+  "time" : {
+    "start" : 1652795619834,
+    "stop" : 1652795631046,
+    "duration" : 11212
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d8dd0c6def1ad281",
+  "name" : "test_sort_back",
+  "time" : {
+    "start" : 1652795699953,
+    "stop" : 1652795714972,
+    "duration" : 15019
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "beed8ff51f510180",
+  "name" : "test_tPrice",
+  "time" : {
+    "start" : 1652795941654,
+    "stop" : 1652795941654,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1eed57cdc1c3c123",
+  "name" : "test_setrl_xj_defaultDivideNum",
+  "time" : {
+    "start" : 1652795134310,
+    "stop" : 1652795138833,
+    "duration" : 4523
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fea0fba8e3ba4460",
+  "name" : "test_change_exercise",
+  "time" : {
+    "start" : 1652795248739,
+    "stop" : 1652795284950,
+    "duration" : 36211
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e9cc029016a1b0a",
+  "name" : "test_hold_num",
+  "time" : {
+    "start" : 1652795646850,
+    "stop" : 1652795661706,
+    "duration" : 14856
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "19d7589a11b18a7c",
+  "name" : "test_oldpwd_null_zj",
+  "time" : {
+    "start" : 1652794833958,
+    "stop" : 1652794841111,
+    "duration" : 7153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdfb2c7ea85f87a",
+  "name" : "test_all_cancel",
+  "time" : {
+    "start" : 1652794576074,
+    "stop" : 1652794623988,
+    "duration" : 47914
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bad44cf8a1404c1",
+  "name" : "test_index",
+  "time" : {
+    "start" : 1652795834874,
+    "stop" : 1652795839198,
+    "duration" : 4324
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d4853e16669515a9",
+  "name" : "test_oldpwd_null",
+  "time" : {
+    "start" : 1652794798505,
+    "stop" : 1652794807189,
+    "duration" : 8684
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "129ef69f63241dca",
+  "name" : "test_traditional_flat",
+  "time" : {
+    "start" : 1652795570104,
+    "stop" : 1652795591226,
+    "duration" : 21122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96c793294f4053c5",
+  "name" : "test_Search_hisgroupflow",
+  "time" : {
+    "start" : 1652795829895,
+    "stop" : 1652795831957,
+    "duration" : 2062
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6211fd12a624051",
+  "name" : "test_rise",
+  "time" : {
+    "start" : 1652795682275,
+    "stop" : 1652795697609,
+    "duration" : 15334
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

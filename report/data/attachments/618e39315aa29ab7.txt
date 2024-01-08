@@ -1,0 +1,10 @@
+INFO     my_log:common_fun.py:278 等待元素可点击首页成功
+INFO     my_log:common_fun.py:278 等待元素可点击合约筛选成功
+INFO     my_log:common_fun.py:175 获取元素合约筛选成功
+INFO     my_log:common_fun.py:278 等待元素可点击搜索成功
+INFO     my_log:common_fun.py:102 清空输入框输入代码搜索框成功
+INFO     my_log:common_fun.py:114 往输入框输入输入代码搜索框成功
+INFO     my_log:common_fun.py:278 等待元素可点击点击item成功
+INFO     my_log:common_fun.py:214 等待元素可见日K成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功

@@ -1,0 +1,218 @@
+{
+  "uid" : "28dc09476cc9b068",
+  "name" : "test_traditional_coveredsell",
+  "fullName" : "testOrder.test_Qorder.TestOrder#test_traditional_coveredsell",
+  "historyId" : "55bf92023d1adfe30763f1e516ab1186",
+  "time" : {
+    "start" : 1652795559984,
+    "stop" : 1652795564502,
+    "duration" : 4518
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: module 'pytest' has no attribute 'assume'",
+  "statusTrace" : "self = <testcases.testOrder.test_Qorder.TestOrder object at 0x006187F0>\nsetup_fixture = (<businessPage.order_page.Order object at 0x00DB1510>, <businessPage.trade_first_page.TradeFirst object at 0x00DB1C10>, <businessPage.optional_page.Optional object at 0x00DB14B0>)\n\n    @pytest.mark.usefixtures('back_fixture')\n    def test_traditional_coveredsell(self, setup_fixture):\n        order, tradehome, optional = setup_fixture\n        # 切换传统风格\n        res = order.change_style(\"传统\")\n>       pytest.assume(res == True)\nE       AttributeError: module 'pytest' has no attribute 'assume'\n\ntestOrder\\test_Qorder.py:367: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver_fixture",
+    "time" : {
+      "start" : 1652794360868,
+      "stop" : 1652794396581,
+      "duration" : 35713
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "login_fixture",
+    "time" : {
+      "start" : 1652794396581,
+      "stop" : 1652794501486,
+      "duration" : 104905
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setup_fixture",
+    "time" : {
+      "start" : 1652795556143,
+      "stop" : 1652795559984,
+      "duration" : 3841
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "back_fixture",
+    "time" : {
+      "start" : 1652795556142,
+      "stop" : 1652795556142,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: module 'pytest' has no attribute 'assume'",
+    "statusTrace" : "self = <testcases.testOrder.test_Qorder.TestOrder object at 0x006187F0>\nsetup_fixture = (<businessPage.order_page.Order object at 0x00DB1510>, <businessPage.trade_first_page.TradeFirst object at 0x00DB1C10>, <businessPage.optional_page.Optional object at 0x00DB14B0>)\n\n    @pytest.mark.usefixtures('back_fixture')\n    def test_traditional_coveredsell(self, setup_fixture):\n        order, tradehome, optional = setup_fixture\n        # 切换传统风格\n        res = order.change_style(\"传统\")\n>       pytest.assume(res == True)\nE       AttributeError: module 'pytest' has no attribute 'assume'\n\ntestOrder\\test_Qorder.py:367: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "58a80aa0012b758d",
+      "name" : "log",
+      "source" : "58a80aa0012b758d.txt",
+      "type" : "text/plain",
+      "size" : 724
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "driver_fixture::0",
+    "time" : {
+      "start" : 1652796124797,
+      "stop" : 1652796124797,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "back_fixture::0",
+    "time" : {
+      "start" : 1652795564507,
+      "stop" : 1652795565116,
+      "duration" : 609
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('back_fixture')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testOrder"
+  }, {
+    "name" : "suite",
+    "value" : "test_Qorder"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrder"
+  }, {
+    "name" : "host",
+    "value" : "Win102021AVUCSJ"
+  }, {
+    "name" : "thread",
+    "value" : "10404-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testOrder.test_Qorder"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "20d4fa86a4295f43",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details",
+      "time" : {
+        "start" : 1652713066345,
+        "stop" : 1652713066345,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5f70902f82fb7af5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details",
+      "time" : {
+        "start" : 1652712722902,
+        "stop" : 1652712722902,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c9247857e30e4071",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652710824431,
+        "stop" : 1652710824431,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f82934b0f426d05f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652710343917,
+        "stop" : 1652710343917,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8495af6bb97f7a6f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20093ms.",
+      "time" : {
+        "start" : 1652710089082,
+        "stop" : 1652710089082,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('back_fixture')" ]
+  },
+  "source" : "28dc09476cc9b068.json",
+  "parameterValues" : [ ]
+}

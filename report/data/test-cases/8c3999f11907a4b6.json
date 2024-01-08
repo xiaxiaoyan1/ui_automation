@@ -1,0 +1,227 @@
+{
+  "uid" : "8c3999f11907a4b6",
+  "name" : "test_setrl_defaultTime",
+  "fullName" : "testEntrustSetup.test_Qentrust_setup.TestEntrustSetup#test_setrl_defaultTime",
+  "historyId" : "ab5e3cb65f7abd410100d8114aad729a",
+  "time" : {
+    "start" : 1652795120043,
+    "stop" : 1652795124095,
+    "duration" : 4052
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: module 'pytest' has no attribute 'assume'",
+  "statusTrace" : "self = <testcases.testEntrustSetup.test_Qentrust_setup.TestEntrustSetup object at 0x001D06D0>\nsetup_fixture = (<businessPage.trade_first_page.TradeFirst object at 0x001E97F0>, <businessPage.entrust_setup_page.Setup object at 0x0...<businessPage.choice_oder_page.ChoiceOrder object at 0x001E9CF0>, <businessPage.order_page.Order object at 0x001E9F90>)\n\n    @pytest.mark.usefixtures('back_fixture')\n    def test_setrl_defaultTime(self,setup_fixture):\n        tradehome, setup,choiceorder,order = setup_fixture\n        setup.setrl_defaultTime(500)\n        setrl_defaultTime_text = setup.el_text(setup.rl_defaultTime,\"拆单时间间隔text\")\n>       pytest.assume(setrl_defaultTime_text == \"500\")\nE       AttributeError: module 'pytest' has no attribute 'assume'\n\ntestEntrustSetup\\test_Qentrust_setup.py:124: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver_fixture",
+    "time" : {
+      "start" : 1652794360868,
+      "stop" : 1652794396581,
+      "duration" : 35713
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "login_fixture",
+    "time" : {
+      "start" : 1652794396581,
+      "stop" : 1652794501486,
+      "duration" : 104905
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "back_fixture",
+    "time" : {
+      "start" : 1652795116959,
+      "stop" : 1652795116959,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setup_fixture",
+    "time" : {
+      "start" : 1652795116959,
+      "stop" : 1652795120042,
+      "duration" : 3083
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: module 'pytest' has no attribute 'assume'",
+    "statusTrace" : "self = <testcases.testEntrustSetup.test_Qentrust_setup.TestEntrustSetup object at 0x001D06D0>\nsetup_fixture = (<businessPage.trade_first_page.TradeFirst object at 0x001E97F0>, <businessPage.entrust_setup_page.Setup object at 0x0...<businessPage.choice_oder_page.ChoiceOrder object at 0x001E9CF0>, <businessPage.order_page.Order object at 0x001E9F90>)\n\n    @pytest.mark.usefixtures('back_fixture')\n    def test_setrl_defaultTime(self,setup_fixture):\n        tradehome, setup,choiceorder,order = setup_fixture\n        setup.setrl_defaultTime(500)\n        setrl_defaultTime_text = setup.el_text(setup.rl_defaultTime,\"拆单时间间隔text\")\n>       pytest.assume(setrl_defaultTime_text == \"500\")\nE       AttributeError: module 'pytest' has no attribute 'assume'\n\ntestEntrustSetup\\test_Qentrust_setup.py:124: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c449ecd1cb7029c9",
+      "name" : "log",
+      "source" : "c449ecd1cb7029c9.txt",
+      "type" : "text/plain",
+      "size" : 661
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "driver_fixture::0",
+    "time" : {
+      "start" : 1652796124797,
+      "stop" : 1652796124797,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "back_fixture::0",
+    "time" : {
+      "start" : 1652795124103,
+      "stop" : 1652795124220,
+      "duration" : 117
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('back_fixture')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testEntrustSetup"
+  }, {
+    "name" : "suite",
+    "value" : "test_Qentrust_setup"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestEntrustSetup"
+  }, {
+    "name" : "host",
+    "value" : "Win102021AVUCSJ"
+  }, {
+    "name" : "thread",
+    "value" : "10404-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testEntrustSetup.test_Qentrust_setup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "308978eb7d20c203",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0400E0D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1652793917866,
+        "stop" : 1652793917866,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "efa2993f316158bc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details",
+      "time" : {
+        "start" : 1652713048934,
+        "stop" : 1652713048934,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "660e2d7d3952567e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details",
+      "time" : {
+        "start" : 1652712705340,
+        "stop" : 1652712705340,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e38b7622446d4877",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652710822365,
+        "stop" : 1652710822365,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bb1f7477353051f6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652710342256,
+        "stop" : 1652710342256,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5fa9c5d038616e23",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20093ms.",
+      "time" : {
+        "start" : 1652710086447,
+        "stop" : 1652710086447,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('back_fixture')" ]
+  },
+  "source" : "8c3999f11907a4b6.json",
+  "parameterValues" : [ ]
+}

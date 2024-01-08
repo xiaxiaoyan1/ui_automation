@@ -1,0 +1,227 @@
+{
+  "uid" : "94a3ce2036a4ff65",
+  "name" : "test_sx",
+  "fullName" : "testContractScreen.test_Qcontract_screen.TestContractScreen#test_sx",
+  "historyId" : "578ba16ba8667401563de2ea1e59d9c2",
+  "time" : {
+    "start" : 1652794958412,
+    "stop" : 1652794968541,
+    "duration" : 10129
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: module 'pytest' has no attribute 'assume'",
+  "statusTrace" : "self = <testcases.testContractScreen.test_Qcontract_screen.TestContractScreen object at 0x005F6CF0>\nsetup_fixture = (<businessPage.contract_screen_page.Screen object at 0x00CF6C90>, <businessPage.first_page.First object at 0x00CF6BB0>, <businessPage.optional_page.Optional object at 0x00CF6CB0>)\n\n    @pytest.mark.usefixtures('back_fixture')\n    def test_sx(self, setup_fixture):\n        screen,first,optional = setup_fixture\n        for i in range(10):\n            j = random.randint(0, 2)\n            k = random.randint(0, 4)\n            l = random.randint(0, 6)\n            m = random.randint(0, 3)\n            n = random.randint(0, 1)\n            screen.to_sx()\n            res = screen.c_sx(j,k,l,m,n)\n            text = screen.sx_text()\n            if res != text:\n                my_log.error(\"执行的筛选操作是'%s'\"% res)\n                my_log.error(\"筛选后的结果是'%s'\" % text)\n                my_log.error(\"筛选组合%d+%d+%d+%d+%d出错\"%(j,k,l,m,n))\n                Common.error_save_screenshot(\"筛选组合%d+%d+%d+%d+%d出错\"%(j,k,l,m,n))\n            print(type(res),type(text),res,text)\n>           pytest.assume(res == text)\nE           AttributeError: module 'pytest' has no attribute 'assume'\n\ntestContractScreen\\test_Qcontract_screen.py:66: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup_fixture",
+    "time" : {
+      "start" : 1652794955880,
+      "stop" : 1652794958411,
+      "duration" : 2531
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "driver_fixture",
+    "time" : {
+      "start" : 1652794360868,
+      "stop" : 1652794396581,
+      "duration" : 35713
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "login_fixture",
+    "time" : {
+      "start" : 1652794396581,
+      "stop" : 1652794501486,
+      "duration" : 104905
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "back_fixture",
+    "time" : {
+      "start" : 1652794955879,
+      "stop" : 1652794955880,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: module 'pytest' has no attribute 'assume'",
+    "statusTrace" : "self = <testcases.testContractScreen.test_Qcontract_screen.TestContractScreen object at 0x005F6CF0>\nsetup_fixture = (<businessPage.contract_screen_page.Screen object at 0x00CF6C90>, <businessPage.first_page.First object at 0x00CF6BB0>, <businessPage.optional_page.Optional object at 0x00CF6CB0>)\n\n    @pytest.mark.usefixtures('back_fixture')\n    def test_sx(self, setup_fixture):\n        screen,first,optional = setup_fixture\n        for i in range(10):\n            j = random.randint(0, 2)\n            k = random.randint(0, 4)\n            l = random.randint(0, 6)\n            m = random.randint(0, 3)\n            n = random.randint(0, 1)\n            screen.to_sx()\n            res = screen.c_sx(j,k,l,m,n)\n            text = screen.sx_text()\n            if res != text:\n                my_log.error(\"执行的筛选操作是'%s'\"% res)\n                my_log.error(\"筛选后的结果是'%s'\" % text)\n                my_log.error(\"筛选组合%d+%d+%d+%d+%d出错\"%(j,k,l,m,n))\n                Common.error_save_screenshot(\"筛选组合%d+%d+%d+%d+%d出错\"%(j,k,l,m,n))\n            print(type(res),type(text),res,text)\n>           pytest.assume(res == text)\nE           AttributeError: module 'pytest' has no attribute 'assume'\n\ntestContractScreen\\test_Qcontract_screen.py:66: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "995a8a8e0e54561",
+      "name" : "log",
+      "source" : "995a8a8e0e54561.txt",
+      "type" : "text/plain",
+      "size" : 1117
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "driver_fixture::0",
+    "time" : {
+      "start" : 1652796124797,
+      "stop" : 1652796124797,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "back_fixture::0",
+    "time" : {
+      "start" : 1652794968547,
+      "stop" : 1652794968613,
+      "duration" : 66
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('back_fixture')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testContractScreen"
+  }, {
+    "name" : "suite",
+    "value" : "test_Qcontract_screen"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestContractScreen"
+  }, {
+    "name" : "host",
+    "value" : "Win102021AVUCSJ"
+  }, {
+    "name" : "thread",
+    "value" : "10404-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testContractScreen.test_Qcontract_screen"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f33b5b2fe1af22e",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0400E0D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1652793915696,
+        "stop" : 1652793915696,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3ff668f3b62da803",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details",
+      "time" : {
+        "start" : 1652713045603,
+        "stop" : 1652713045603,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3fa08b6850b2b432",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details",
+      "time" : {
+        "start" : 1652712702065,
+        "stop" : 1652712702065,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "baa565f1b96482a7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652710822011,
+        "stop" : 1652710822011,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e014679ac7888a3e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652710341904,
+        "stop" : 1652710341904,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "800aa5783df48d67",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20093ms.",
+      "time" : {
+        "start" : 1652710085893,
+        "stop" : 1652710085893,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('back_fixture')" ]
+  },
+  "source" : "94a3ce2036a4ff65.json",
+  "parameterValues" : [ ]
+}

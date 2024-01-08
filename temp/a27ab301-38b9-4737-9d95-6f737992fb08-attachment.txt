@@ -1,0 +1,55 @@
+INFO     my_log:desired_caps.py:25 开始启动app
+INFO     my_log:desired_caps.py:30 隐私协议第一个复选框
+INFO     my_log:desired_caps.py:39 隐私协议第二个复选框
+INFO     my_log:desired_caps.py:48 隐私协议确认
+INFO     my_log:desired_caps.py:64 没有更新弹框
+INFO     my_log:desired_caps.py:67 首页弹框
+INFO     my_log:desired_caps.py:74 点击首页确认弹框
+INFO     my_log:common_fun.py:278 等待元素可点击交易成功
+INFO     my_log:common_fun.py:162 获取元素title成功
+INFO     my_log:login_page.py:46 ---------手机号码激活-----------
+INFO     my_log:common_fun.py:146 往输入框输入输入手机号成功
+INFO     my_log:common_fun.py:278 等待元素可点击获取验证码成功
+INFO     my_log:common_fun.py:146 往输入框输入输入手机验证码成功
+INFO     my_log:common_fun.py:278 等待元素可点击确定成功
+INFO     my_log:login_page.py:51 ---------登录-----------
+INFO     my_log:login_page.py:52 账号：300065000006
+INFO     my_log:common_fun.py:244 等待元素存在账号成功
+INFO     my_log:login_page.py:55 密码：123123
+INFO     my_log:common_fun.py:244 等待元素存在账号成功
+INFO     my_log:login_page.py:58 点击登录
+INFO     my_log:common_fun.py:87 点击元素登录成功
+INFO     my_log:common_fun.py:214 等待元素可见首页账号成功
+INFO     my_log:login_page.py:117 登录成功
+INFO     my_log:common_fun.py:278 等待元素可点击交易成功
+INFO     my_log:common_fun.py:278 等待元素可点击下单成功
+INFO     my_log:common_fun.py:162 获取元素获取第六个合约名称成功
+INFO     my_log:common_fun.py:278 等待元素可点击选择第六个合约成功
+INFO     my_log:common_fun.py:278 等待元素可点击价格输入框成功
+INFO     my_log:common_fun.py:278 等待元素可点击涨停价成功
+INFO     my_log:common_fun.py:278 等待元素可点击收起键盘成功
+INFO     my_log:common_fun.py:214 等待元素可见数量输入框成功
+INFO     my_log:common_fun.py:278 等待元素可点击卖开成功
+INFO     my_log:common_fun.py:473 当前没有提醒弹窗，正常执行之后的操作
+INFO     my_log:common_fun.py:278 等待元素可点击confirm确认按钮成功
+INFO     my_log:common_fun.py:162 获取元素toast_title成功
+INFO     my_log:common_fun.py:278 等待元素可点击toast确认按钮成功
+ERROR    my_log:common_fun.py:454 现在已闭市,系统禁止委托
+INFO     my_log:common_fun.py:260 对【现在已闭市,系统禁止委托】---操作成功进行截图成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功
+INFO     my_log:common_fun.py:278 等待元素可点击进入撤单页成功
+INFO     my_log:common_fun.py:278 等待元素可点击批量撤单成功
+INFO     my_log:common_fun.py:162 获取元素确定撤单成功
+ERROR    my_log:common_fun.py:273 等待元素可点击撤单单选框失败
+ERROR    my_log:common_fun.py:274 Message: 
+Traceback (most recent call last):
+  File "D:\xiaxy\automation_test2022.4.22\common\common_fun.py", line 270, in get_clickable_element
+    ele = WebDriverWait(self.driver,timeout,0.5).until(EC.element_to_be_clickable(loc))
+  File "D:\xiaxy\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     my_log:common_fun.py:260 对【撤单单选框】---操作成功进行截图成功
+ERROR    my_log:cancel_order_page.py:47 没有可撤单
+INFO     my_log:common_fun.py:260 对【没有可撤单】---操作成功进行截图成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功

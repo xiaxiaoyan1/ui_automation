@@ -1,0 +1,43 @@
+INFO     my_log:common_fun.py:278 等待元素可点击交易成功
+INFO     my_log:common_fun.py:278 等待元素可点击进入锁定解锁页成功
+INFO     my_log:common_fun.py:278 等待元素可点击解锁页成功
+INFO     my_log:common_fun.py:162 获取元素证券代码成功
+INFO     my_log:common_fun.py:162 获取元素证券代码成功
+INFO     my_log:common_fun.py:162 获取元素证券代码成功
+INFO     my_log:common_fun.py:162 获取元素证券代码成功
+INFO     my_log:common_fun.py:162 获取元素证券代码成功
+INFO     my_log:common_fun.py:162 获取元素证券代码成功
+INFO     my_log:common_fun.py:162 获取元素证券代码成功
+INFO     my_log:common_fun.py:162 获取元素证券代码成功
+INFO     my_log:common_fun.py:162 获取元素证券代码成功
+INFO     my_log:common_fun.py:162 获取元素证券代码成功
+INFO     my_log:common_fun.py:162 获取元素可解数量成功
+INFO     my_log:common_fun.py:132 清空输入框清空数量框成功
+INFO     my_log:common_fun.py:102 清空输入框输入解锁数量成功
+INFO     my_log:common_fun.py:114 往输入框输入输入解锁数量成功
+INFO     my_log:common_fun.py:278 等待元素可点击锁定/解锁按钮成功
+ERROR    my_log:common_fun.py:273 等待元素可点击confirm确认按钮失败
+ERROR    my_log:common_fun.py:274 Message: 
+Traceback (most recent call last):
+  File "D:\xiaxy\automation_test2022.4.22\common\common_fun.py", line 270, in get_clickable_element
+    ele = WebDriverWait(self.driver,timeout,0.5).until(EC.element_to_be_clickable(loc))
+  File "D:\xiaxy\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     my_log:common_fun.py:260 对【confirm确认按钮】---操作成功进行截图成功
+ERROR    my_log:common_fun.py:377 没有confirm按钮
+ERROR    my_log:common_fun.py:378 Message: 
+Traceback (most recent call last):
+  File "D:\xiaxy\automation_test2022.4.22\common\common_fun.py", line 375, in confirm
+    self.get_clickable_element(self.cofirmbtn,"confirm确认按钮")
+  File "D:\xiaxy\automation_test2022.4.22\common\common_fun.py", line 276, in get_clickable_element
+    raise e
+  File "D:\xiaxy\automation_test2022.4.22\common\common_fun.py", line 270, in get_clickable_element
+    ele = WebDriverWait(self.driver,timeout,0.5).until(EC.element_to_be_clickable(loc))
+  File "D:\xiaxy\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     my_log:common_fun.py:260 对【没有confirm按钮】---操作成功进行截图成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功

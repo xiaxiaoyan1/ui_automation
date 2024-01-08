@@ -1,0 +1,31 @@
+INFO     my_log:desired_caps.py:25 开始启动app
+INFO     my_log:desired_caps.py:30 隐私协议第一个复选框
+INFO     my_log:desired_caps.py:39 隐私协议第二个复选框
+INFO     my_log:desired_caps.py:48 隐私协议确认
+INFO     my_log:desired_caps.py:64 没有更新弹框
+INFO     my_log:desired_caps.py:67 首页弹框
+INFO     my_log:desired_caps.py:74 点击首页确认弹框
+INFO     my_log:common_fun.py:278 等待元素可点击交易成功
+INFO     my_log:common_fun.py:162 获取元素title成功
+INFO     my_log:login_page.py:46 ---------手机号码激活-----------
+INFO     my_log:common_fun.py:146 往输入框输入输入手机号成功
+INFO     my_log:common_fun.py:278 等待元素可点击获取验证码成功
+INFO     my_log:common_fun.py:146 往输入框输入输入手机验证码成功
+INFO     my_log:common_fun.py:278 等待元素可点击确定成功
+INFO     my_log:login_page.py:51 ---------登录-----------
+INFO     my_log:login_page.py:52 账号：300065000006
+INFO     my_log:common_fun.py:244 等待元素存在账号成功
+INFO     my_log:login_page.py:55 密码：123123
+INFO     my_log:common_fun.py:244 等待元素存在账号成功
+INFO     my_log:login_page.py:58 点击登录
+INFO     my_log:common_fun.py:87 点击元素登录成功
+ERROR    my_log:common_fun.py:209 等待元素可见首页账号失败
+ERROR    my_log:common_fun.py:210 Message: 
+Traceback (most recent call last):
+  File "D:\xiaxy\automation_test2022.4.22\common\common_fun.py", line 207, in get_visible_element
+    ele=WebDriverWait(self.driver,timeout,0.5).until(EC.visibility_of_element_located(loc))
+  File "D:\xiaxy\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     my_log:common_fun.py:260 对【首页账号】---操作成功进行截图成功

@@ -1,0 +1,11 @@
+INFO     my_log:common_fun.py:278 等待元素可点击交易成功
+INFO     my_log:common_fun.py:341 开始滑动
+INFO     my_log:common_fun.py:278 等待元素可点击委托设置成功
+INFO     my_log:common_fun.py:278 等待元素可点击默认价格成功
+INFO     my_log:common_fun.py:278 等待元素可点击对手价成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功
+INFO     my_log:common_fun.py:278 等待元素可点击下单成功
+INFO     my_log:common_fun.py:162 获取元素获取第六个合约名称成功
+INFO     my_log:common_fun.py:278 等待元素可点击选择第六个合约成功
+INFO     my_log:common_fun.py:162 获取元素对手价text成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功

@@ -1,0 +1,17 @@
+INFO     my_log:common_fun.py:278 等待元素可点击交易成功
+INFO     my_log:common_fun.py:278 等待元素可点击行权成功
+INFO     my_log:common_fun.py:278 等待元素可点击协议行权成功
+INFO     my_log:common_fun.py:162 获取元素协议行权合约名称成功
+ERROR    my_log:common_fun.py:209 等待元素可见合约失败
+ERROR    my_log:common_fun.py:210 Message: 
+Traceback (most recent call last):
+  File "D:\xiaxy\automation_test2022.4.22\common\common_fun.py", line 207, in get_visible_element
+    ele=WebDriverWait(self.driver,timeout,0.5).until(EC.visibility_of_element_located(loc))
+  File "D:\xiaxy\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     my_log:common_fun.py:260 对【合约】---操作成功进行截图成功
+ERROR    my_log:exercise_page.py:83 没有合约
+INFO     my_log:common_fun.py:260 对【没有合约】---操作成功进行截图成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功

@@ -1,0 +1,218 @@
+{
+  "uid" : "1eed57cdc1c3c123",
+  "name" : "test_setrl_xj_defaultDivideNum",
+  "fullName" : "testEntrustSetup.test_Qentrust_setup.TestEntrustSetup#test_setrl_xj_defaultDivideNum",
+  "historyId" : "76a59dc85d71c46022b1c9987614285b",
+  "time" : {
+    "start" : 1652795134310,
+    "stop" : 1652795138833,
+    "duration" : 4523
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: module 'pytest' has no attribute 'assume'",
+  "statusTrace" : "self = <testcases.testEntrustSetup.test_Qentrust_setup.TestEntrustSetup object at 0x00768170>\nsetup_fixture = (<businessPage.trade_first_page.TradeFirst object at 0x00768DF0>, <businessPage.entrust_setup_page.Setup object at 0x0...<businessPage.choice_oder_page.ChoiceOrder object at 0x00768CF0>, <businessPage.order_page.Order object at 0x00768130>)\n\n    @pytest.mark.usefixtures('back_fixture')\n    def test_setrl_xj_defaultDivideNum(self,setup_fixture):\n        tradehome, setup,choiceorder,order = setup_fixture\n        setup.setrl_xj_defaultDivideNum(40)\n        rl_xj_defaultDivideNum_text = setup.el_text(setup.rl_xj_defaultDivideNum,\"限价每张拆单张数text\")\n>       pytest.assume(rl_xj_defaultDivideNum_text == \"40\")\nE       AttributeError: module 'pytest' has no attribute 'assume'\n\ntestEntrustSetup\\test_Qentrust_setup.py:144: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver_fixture",
+    "time" : {
+      "start" : 1652794360868,
+      "stop" : 1652794396581,
+      "duration" : 35713
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "login_fixture",
+    "time" : {
+      "start" : 1652794396581,
+      "stop" : 1652794501486,
+      "duration" : 104905
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "back_fixture",
+    "time" : {
+      "start" : 1652795130338,
+      "stop" : 1652795130338,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setup_fixture",
+    "time" : {
+      "start" : 1652795130338,
+      "stop" : 1652795134310,
+      "duration" : 3972
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: module 'pytest' has no attribute 'assume'",
+    "statusTrace" : "self = <testcases.testEntrustSetup.test_Qentrust_setup.TestEntrustSetup object at 0x00768170>\nsetup_fixture = (<businessPage.trade_first_page.TradeFirst object at 0x00768DF0>, <businessPage.entrust_setup_page.Setup object at 0x0...<businessPage.choice_oder_page.ChoiceOrder object at 0x00768CF0>, <businessPage.order_page.Order object at 0x00768130>)\n\n    @pytest.mark.usefixtures('back_fixture')\n    def test_setrl_xj_defaultDivideNum(self,setup_fixture):\n        tradehome, setup,choiceorder,order = setup_fixture\n        setup.setrl_xj_defaultDivideNum(40)\n        rl_xj_defaultDivideNum_text = setup.el_text(setup.rl_xj_defaultDivideNum,\"限价每张拆单张数text\")\n>       pytest.assume(rl_xj_defaultDivideNum_text == \"40\")\nE       AttributeError: module 'pytest' has no attribute 'assume'\n\ntestEntrustSetup\\test_Qentrust_setup.py:144: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a88887f38c5c7c76",
+      "name" : "log",
+      "source" : "a88887f38c5c7c76.txt",
+      "type" : "text/plain",
+      "size" : 732
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "driver_fixture::0",
+    "time" : {
+      "start" : 1652796124797,
+      "stop" : 1652796124797,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "back_fixture::0",
+    "time" : {
+      "start" : 1652795138841,
+      "stop" : 1652795138940,
+      "duration" : 99
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('back_fixture')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testEntrustSetup"
+  }, {
+    "name" : "suite",
+    "value" : "test_Qentrust_setup"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestEntrustSetup"
+  }, {
+    "name" : "host",
+    "value" : "Win102021AVUCSJ"
+  }, {
+    "name" : "thread",
+    "value" : "10404-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testEntrustSetup.test_Qentrust_setup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "801d1b4ca513f201",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details",
+      "time" : {
+        "start" : 1652713049471,
+        "stop" : 1652713049471,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "16b414df05703d3a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details",
+      "time" : {
+        "start" : 1652712705883,
+        "stop" : 1652712705883,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "24820aa6bf558a36",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652710822430,
+        "stop" : 1652710822430,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "102292ef9998073",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652710342314,
+        "stop" : 1652710342314,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bad9e5a2b210a8f2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20093ms.",
+      "time" : {
+        "start" : 1652710086537,
+        "stop" : 1652710086537,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('back_fixture')" ]
+  },
+  "source" : "1eed57cdc1c3c123.json",
+  "parameterValues" : [ ]
+}

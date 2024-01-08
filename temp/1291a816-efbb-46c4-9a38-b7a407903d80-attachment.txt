@@ -1,0 +1,4 @@
+INFO     my_log:common_fun.py:278 等待元素可点击首页成功
+INFO     my_log:common_fun.py:278 等待元素可点击重要通告成功
+INFO     my_log:common_fun.py:175 获取元素通告成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功

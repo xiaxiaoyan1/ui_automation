@@ -1,0 +1,7 @@
+INFO     my_log:common_fun.py:278 等待元素可点击交易成功
+INFO     my_log:common_fun.py:278 等待元素可点击查询成功
+INFO     my_log:common_fun.py:278 等待元素可点击组合策略持仓查询成功
+INFO     my_log:common_fun.py:214 等待元素可见组合策略持仓查询成功
+INFO     my_log:search_page.py:167 组合策略持仓查询成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功

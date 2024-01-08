@@ -1,0 +1,10 @@
+INFO     my_log:common_fun.py:278 等待元素可点击交易成功
+INFO     my_log:common_fun.py:341 开始滑动
+INFO     my_log:common_fun.py:278 等待元素可点击委托设置成功
+INFO     my_log:common_fun.py:341 开始滑动
+INFO     my_log:common_fun.py:278 等待元素可点击市价每单拆单张数成功
+INFO     my_log:common_fun.py:102 清空输入框市价每单拆单张数输入框成功
+INFO     my_log:common_fun.py:114 往输入框输入市价每单拆单张数输入框成功
+INFO     my_log:common_fun.py:278 等待元素可点击confirm确认按钮成功
+INFO     my_log:common_fun.py:162 获取元素市价每单拆单张数text成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功

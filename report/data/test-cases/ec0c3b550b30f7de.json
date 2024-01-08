@@ -1,0 +1,227 @@
+{
+  "uid" : "ec0c3b550b30f7de",
+  "name" : "test_setadd_defaultNumber",
+  "fullName" : "testEntrustSetup.test_Qentrust_setup.TestEntrustSetup#test_setadd_defaultNumber",
+  "historyId" : "a58f7d59c57472f0eef78750b3e0bc1e",
+  "time" : {
+    "start" : 1652795094521,
+    "stop" : 1652795101828,
+    "duration" : 7307
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: module 'pytest' has no attribute 'assume'",
+  "statusTrace" : "self = <testcases.testEntrustSetup.test_Qentrust_setup.TestEntrustSetup object at 0x005F67B0>\nsetup_fixture = (<businessPage.trade_first_page.TradeFirst object at 0x00603150>, <businessPage.entrust_setup_page.Setup object at 0x0...<businessPage.choice_oder_page.ChoiceOrder object at 0x006037D0>, <businessPage.order_page.Order object at 0x00603750>)\n\n    @pytest.mark.usefixtures('back_fixture')\n    def test_setadd_defaultNumber(self,setup_fixture):\n        tradehome, setup,choiceorder,order = setup_fixture\n        setup.setadd_defaultNumber(2)\n        setup.page_back()\n        tradehome.to_order()\n        choiceorder.c_orderpage()\n        el_add_defaultNumber_text = order.el_text(order.add_hand,\"默认下单增加数量text\")\n>       pytest.assume(el_add_defaultNumber_text == \"2\")\nE       AttributeError: module 'pytest' has no attribute 'assume'\n\ntestEntrustSetup\\test_Qentrust_setup.py:71: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver_fixture",
+    "time" : {
+      "start" : 1652794360868,
+      "stop" : 1652794396581,
+      "duration" : 35713
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setup_fixture",
+    "time" : {
+      "start" : 1652795091507,
+      "stop" : 1652795094520,
+      "duration" : 3013
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "login_fixture",
+    "time" : {
+      "start" : 1652794396581,
+      "stop" : 1652794501486,
+      "duration" : 104905
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "back_fixture",
+    "time" : {
+      "start" : 1652795091507,
+      "stop" : 1652795091507,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: module 'pytest' has no attribute 'assume'",
+    "statusTrace" : "self = <testcases.testEntrustSetup.test_Qentrust_setup.TestEntrustSetup object at 0x005F67B0>\nsetup_fixture = (<businessPage.trade_first_page.TradeFirst object at 0x00603150>, <businessPage.entrust_setup_page.Setup object at 0x0...<businessPage.choice_oder_page.ChoiceOrder object at 0x006037D0>, <businessPage.order_page.Order object at 0x00603750>)\n\n    @pytest.mark.usefixtures('back_fixture')\n    def test_setadd_defaultNumber(self,setup_fixture):\n        tradehome, setup,choiceorder,order = setup_fixture\n        setup.setadd_defaultNumber(2)\n        setup.page_back()\n        tradehome.to_order()\n        choiceorder.c_orderpage()\n        el_add_defaultNumber_text = order.el_text(order.add_hand,\"默认下单增加数量text\")\n>       pytest.assume(el_add_defaultNumber_text == \"2\")\nE       AttributeError: module 'pytest' has no attribute 'assume'\n\ntestEntrustSetup\\test_Qentrust_setup.py:71: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "73c9753bf708b52d",
+      "name" : "log",
+      "source" : "73c9753bf708b52d.txt",
+      "type" : "text/plain",
+      "size" : 984
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "driver_fixture::0",
+    "time" : {
+      "start" : 1652796124797,
+      "stop" : 1652796124797,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "back_fixture::0",
+    "time" : {
+      "start" : 1652795101836,
+      "stop" : 1652795101978,
+      "duration" : 142
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('back_fixture')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testEntrustSetup"
+  }, {
+    "name" : "suite",
+    "value" : "test_Qentrust_setup"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestEntrustSetup"
+  }, {
+    "name" : "host",
+    "value" : "Win102021AVUCSJ"
+  }, {
+    "name" : "thread",
+    "value" : "10404-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testEntrustSetup.test_Qentrust_setup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b62ae81298327bb5",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0400E0D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1652793917135,
+        "stop" : 1652793917135,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "97b7ac408d2ecd43",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details",
+      "time" : {
+        "start" : 1652713047829,
+        "stop" : 1652713047829,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cc07faab4a6bc0c1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details",
+      "time" : {
+        "start" : 1652712704231,
+        "stop" : 1652712704231,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c4c718d5eedde921",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652710822250,
+        "stop" : 1652710822250,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d1964fd0673c0122",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652710342141,
+        "stop" : 1652710342141,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "623fda42653b687a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20093ms.",
+      "time" : {
+        "start" : 1652710086259,
+        "stop" : 1652710086259,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('back_fixture')" ]
+  },
+  "source" : "ec0c3b550b30f7de.json",
+  "parameterValues" : [ ]
+}

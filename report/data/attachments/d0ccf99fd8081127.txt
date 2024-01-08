@@ -1,0 +1,41 @@
+INFO     my_log:common_fun.py:278 等待元素可点击交易成功
+INFO     my_log:common_fun.py:278 等待元素可点击下单成功
+INFO     my_log:common_fun.py:162 获取元素获取第六个合约名称成功
+INFO     my_log:common_fun.py:278 等待元素可点击选择第六个合约成功
+INFO     my_log:common_fun.py:214 等待元素可见数量输入框成功
+INFO     my_log:common_fun.py:278 等待元素可点击买开成功
+INFO     my_log:common_fun.py:473 当前没有提醒弹窗，正常执行之后的操作
+INFO     my_log:common_fun.py:278 等待元素可点击confirm确认按钮成功
+INFO     my_log:common_fun.py:162 获取元素toast_title成功
+INFO     my_log:common_fun.py:278 等待元素可点击toast确认按钮成功
+ERROR    my_log:common_fun.py:454 现在已闭市,系统禁止委托
+INFO     my_log:common_fun.py:260 对【现在已闭市,系统禁止委托】---操作成功进行截图成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功
+INFO     my_log:common_fun.py:278 等待元素可点击下单成功
+INFO     my_log:common_fun.py:278 等待元素可点击点击认购成功
+INFO     my_log:common_fun.py:278 等待元素可点击选择合约成功
+INFO     my_log:common_fun.py:214 等待元素可见数量输入框成功
+INFO     my_log:common_fun.py:278 等待元素可点击卖开成功
+INFO     my_log:common_fun.py:473 当前没有提醒弹窗，正常执行之后的操作
+INFO     my_log:common_fun.py:278 等待元素可点击confirm确认按钮成功
+INFO     my_log:common_fun.py:162 获取元素toast_title成功
+INFO     my_log:common_fun.py:278 等待元素可点击toast确认按钮成功
+ERROR    my_log:common_fun.py:454 现在已闭市,系统禁止委托
+INFO     my_log:common_fun.py:260 对【现在已闭市,系统禁止委托】---操作成功进行截图成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功
+INFO     my_log:common_fun.py:278 等待元素可点击组合申报成功
+INFO     my_log:common_fun.py:278 等待元素可点击组合申报成功
+INFO     my_log:common_fun.py:278 等待元素可点击认购牛市价差成功
+ERROR    my_log:common_fun.py:273 等待元素可点击认购牛市价差组合失败
+ERROR    my_log:common_fun.py:274 Message: 
+Traceback (most recent call last):
+  File "D:\xiaxy\automation_test2022.4.22\common\common_fun.py", line 270, in get_clickable_element
+    ele = WebDriverWait(self.driver,timeout,0.5).until(EC.element_to_be_clickable(loc))
+  File "D:\xiaxy\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     my_log:common_fun.py:260 对【认购牛市价差组合】---操作成功进行截图成功
+ERROR    my_log:combination_report_page.py:27 没有认购牛市价差组合
+INFO     my_log:common_fun.py:260 对【没有认购牛市价差组合】---操作成功进行截图成功
+INFO     my_log:common_fun.py:278 等待元素可点击返回成功
